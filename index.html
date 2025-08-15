@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Page title shown in the browser tab -->
+    <title>Nathan Tosoc Portfolio</title>
+
+    <!-- Character encoding so text renders correctly -->
+    <meta charset="utf-8" />
+
+    <!-- Mobile-friendly viewport and zoom behavior -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+
+    <!-- Main stylesheet from the HTML5 UP "Massively" template
+         - Defines layout, typography, colors, spacing, and icon styles
+         - Also brings in Font Awesome icons bundled with the template -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- Fallback stylesheet when JavaScript is disabled
+         (the template uses JS for animations/effects; this ensures basic styling still works) -->
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+
+  <!-- Template adds/remove classes like `is-preload` to control initial animations -->
+  <body class="is-preload">
+    <!-- Wrapper: overall page container; `fade-in` enables intro fade effect via CSS/JS -->
+    <div id="wrapper" class="fade-in">
+      <!-- Intro (Hero) section: first screen users see -->
+      <div id="intro">
+        <!-- Site heading -->
+        <h1>Nathan Tosoc Portfolio</h1>
+
+        <!-- Tagline / short bio. The links below credit the original template author/license.
+             Replace this paragraph with your own bio + tech stack summary. -->
+        <p>
+          Data Analyst skilled in SQL, Python, Tableau, and Power BI, </br>
+          transforming complex datasets into actionable strategies that drive measurable results.
+        </p>
+
+        <!-- CTA button: smooth-scrolls to the header/navigation below
+             `scrolly` class is wired up by assets/js/jquery.scrolly.min.js -->
+        <ul class="actions">
+          <li>
+            <a
+              href="#header"
+              class="button icon solid solo fa-arrow-down scrolly"
+              >Continue</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Header (sticky area with logo/home link) -->
+      <header id="header">
+        <!-- Logo/home link text; typically change "Massively" to your name or site logo -->
+        <a href="index.html" class="logo">Nathan Tosoc Portfolio</a>
+      </header>
+
+      <!-- Primary Navigation bar -->
+      <nav id="nav">
+        <!-- Top-level page links. Update or remove generic pages as needed. -->
+        <ul class="links">
+          <li class="active"><a href="index.html">Projects</a></li>
+          <li><a href="aboutMe.html">About Me</a></li>
+        </ul>
+
+        <!-- Social icons (Font Awesome brand icons). Replace `#` with your profiles. -->
+        <ul class="icons">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/nathantosoc"
+              class="icon brands fa-linkedin"
+              target="_blank"
+              rel="noopener" 
+            >
+              <span class="label">LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/nathantosoc"
+              class="icon brands fa-github"
+              target="_blank"
+              rel="noopener"
+            >
+              <span class="label">GitHub</span>
+            </a>
+          </li>
+		      <li>
+			      <a
+			        href="mailto:nathan.gab.tosoc@gmail.com"
+			        class="icon solid alt fa-envelope"
+			        target="_blank"
+			        rel="noopener"
+			      >
+			      <span class="label">Email</span>
+			      </a>
+            </li>
+        </ul>
+      </nav>
+
+      <!-- Main content area for posts/projects -->
+      <div id="main">
+        <!-- Featured Post: hero project highlight with large image and CTA -->
+        <article>
+          <header class="major">
+            <!-- Large feature title; convert to your flagship project name -->
+            <h2>
+              <a href="https://github.com/nathantosoc/A-Behavioral-Link" target="_blank">
+                Drugs, Traits, and Status: A Behavioral Link
+              </a>
+            </h2>
+
+            <!-- Short description/abstract for the featured item -->
+            <p>
+              Developed an end-to-end data pipeline for large public health datasets, including ETL, data wrangling, feature engineering, and normalization, followed by EDA and regression modeling to explore links between substance use, personality traits, and demographics.
+            </br> <u>Stack</u>: Python (pandas, numpy, seaborn, matplotlib, statsmodels, patsy), Jupyter Notebook, Excel 
+            </p>
+          </header>
+
+          <!-- Feature image; replace with your own image under images/ -->
+          <a href="https://github.com/nathantosoc/A-Behavioral-Link" target="_blank" class="image main"
+            ><img src="images/pic01.jpg" alt="Substance Use Frequency Project" class="project-image"></a>
+
+          <!-- Primary call-to-action for the feature (e.g., link to GitHub repo or case study page) -->
+          <ul class="actions special">
+            <li><a href="https://github.com/nathantosoc/A-Behavioral-Link" target="_blank" class="button large">View Project</a></li>
+          </ul>
+        </article>
+
+        <!-- Grid of additional posts/projects -->
+        <section class="posts">
+          <!-- Repeatable project card #1 -->
+          <article>
+            <header>
+              <h2>
+                <a href="#" target="_blank">
+                  Project #2
+                </a>
+              </h2>
+            </header>
+            <!-- Project thumbnail image -->
+            <a href="#" target="_blank" class="image fit"
+              ><img src="images/pic02.jpg" target="_blank" alt=""
+            /></a>
+            <!-- Short blurb; summarize the problem, approach, and impact in 1–2 sentences -->
+            <p>
+              Coming Soon
+            </p>
+            <!-- Secondary CTA (e.g., "View project", "Read case study", "Open notebook") -->
+            <ul class="actions special">
+              <li><a href="#" target="_blank" class="button">View Project</a></li>
+            </ul>
+          </article>
+
+          <!-- Repeatable project card #2 -->
+          <article>
+            <header>
+              <h2>
+                <a href="#" target="_blank">
+                  Project #3
+                </a>
+              </h2>
+            </header>
+            <a href="#" class="image fit" target="_blank"
+              ><img src="images/pic03.jpg" alt=""
+            /></a>
+            <p>
+              Coming Soon
+            </p>
+            <ul class="actions special">
+              <li><a href="#" target="_blank" class="button">View Project</a></li>
+            </ul>
+          </article>
+        </section>
+
+        <!-- Pagination bar under the posts grid (static placeholders by default) -->
+        
+      </div>
+
+      <!-- Global site footer with contact form & contact details -->
+      <footer id="footer">
+        <!-- Contact form (front-end only). To make it work, hook up to a backend or a service like Formspree/Netlify Forms. -->
+        <section>
+        <!-- Contact info + social links split into columns -->
+        <section class="split contact">
+          <section>
+            <h3>Phone</h3>
+            <!-- Replace `#` with tel: link or leave as text -->
+            <p><a href="#">(510) 426-0539</a></p>
+          </section>
+          <section>
+            <h3>Email</h3>
+            <!-- Replace with your real email or a mailto: link -->
+            <p><a href="mailto:nathan.gab.tosoc@gmail.com">nathan.gab.tosoc@gmail.com</a></p>
+          </section>
+          <section>
+            <h3>Social</h3>
+            <!-- Alternate-styled icon list for the footer -->
+            <ul class="icons alt">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/nathantosoc"
+                  class="icon brands alt fa-linkedin"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <span class="label">LinkedIn</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/nathantosoc"
+                  class="icon brands alt fa-github"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <span class="label">GitHub</span>
+                </a>
+              </li>
+			  <li>
+				<a
+				  href="mailto:nathan.gab.tosoc@gmail.com"
+				  class="icon solid alt fa-envelope"
+				  target="_blank"
+				  rel="noopener"
+				>
+				  <span class="label">Email</span>
+				</a>
+			  </li>
+            </ul>
+          </section>
+        </section>
+      </footer>
+
+      <!-- Copyright / credits strip at the very bottom -->
+      <div id="copyright"></div>
+    </div>
+
+    <!-- Scripts: order matters because later scripts depend on earlier ones -->
+    <!-- Core jQuery library (required by the template's plugins) -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
